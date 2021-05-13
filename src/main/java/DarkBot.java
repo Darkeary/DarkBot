@@ -38,19 +38,23 @@ public class DarkBot extends ListenerAdapter {
         //String authorID = event.getAuthor().getId();
         int hash = event.getAuthor().hashCode();
 
-        System.out.println(hash + ", " + message);
+        //System.out.println(hash + ", " + message);
         //System.out.println(myID);
-        System.out.println(hash);
+        //System.out.println(hash);
+        event.getMessage().clearReactions();
 
         if(hash == myHash){
-            System.out.println("Hello Boss!");
-            event.getChannel().sendMessage("lol").queue();
+            //System.out.println("Hello Boss!");
+            //event.getChannel().sendMessage("lol").queue();
             myMessages.add(event.getMessageId());
         }
 
         //event.getReactionEmote();
 
 
+    }
+
+    public void delete(){
 
     }
 }
