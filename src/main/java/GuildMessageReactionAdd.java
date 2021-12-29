@@ -15,12 +15,12 @@ public class GuildMessageReactionAdd extends ListenerAdapter {
 
         String messageID = event.getMessageId();
 
-        System.out.println("5. " + event.getReactionEmote().getEmote().getName() + ":" + event.getReactionEmote().getEmote().getId());
+        /*System.out.println("5. " + event.getReactionEmote().getEmote().getName() + ":" + event.getReactionEmote().getEmote().getId());
 
         System.out.println("10. " + event.getReactionEmote());
         System.out.println("11. " + event.getReaction());
         System.out.println("12. " + event.getReactionEmote().getEmote());
-
+*/
 
 
 

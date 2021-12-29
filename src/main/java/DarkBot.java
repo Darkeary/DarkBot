@@ -20,10 +20,7 @@ public class DarkBot extends ListenerAdapter {
 
     public static void main(String[] args) throws LoginException {
 
-        Token tokenClass = new Token();
-
-        String token = tokenClass.getToken();
-
+        String token = "MzY2NjgxMDkxODk1MDY2NjQ2.WdqIYA.gmOrMByfjUBesIbiFfVaDZbAg58";
         jda = JDABuilder.createDefault(token).build();
 
         jda.addEventListener(new DarkBot());
